@@ -1,0 +1,35 @@
+// Reset CSS Starts Here
+* {
+    margin: 0;
+	padding: 0;
+	outline: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+img {
+	border: 0;
+	outline: 0;
+	max-width: 100%;
+    vertical-align: middle;
+}
+body{
+	position: relative;
+}
+
+h1 {
+	font-size: 48px !important;
+	line-height: 60px !important;
+}
+  
+h4 {
+	font-size: 20px !important;
+}
+
+.promises {
+	span {
+		display: block;
+	}
+}
+// Reset CSS Ends Here

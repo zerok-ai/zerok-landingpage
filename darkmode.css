@@ -1,0 +1,27 @@
+.dark * {
+    color: #ffffff;
+}
+
+.dark {
+    background-color: #00073f;
+}
+
+@media (min-width: 420px) and (max-width: 991px) {
+    .dark {
+        background-image: none !important;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .dark {
+        background-image: url(dist/src/images/bg.png) !important; 
+        background-repeat: no-repeat; 
+        background-size:contain; 
+        background-position-x: right;
+    }
+
+    .has-line::before {
+        background-color: #CCCCCC !important;
+    }
+}

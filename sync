@@ -1,0 +1,2 @@
+aws s3 sync ./ s3://zerok-landingpage/ --delete 
+aws cloudfront create-invalidation --distribution-id E2ERGLDM0L8QZV --paths "/"
